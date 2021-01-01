@@ -15,7 +15,7 @@ function Row({title,fetchUrl,big_poster}) {
         }
         fetchData();
     }, [fetchUrl])
-    console.log(movies);
+    // console.log(movies);
 
     return (
         <div className="row">
